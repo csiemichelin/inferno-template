@@ -21,7 +21,7 @@
       "value" : "https://www.mohw.gov.tw/"
     } ]
   } ],
-  "description" : "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.gov.tw/post/internet/Download/index.jsp?ID=2292](https://www.post.gov.tw/post/internet/Download/index.jsp?ID=2292)。屬性命名以與國際的等級一致為主，未採用中華郵政提供之英文名稱。   \\n代碼出版日期：2015-01-22；資料所屬單位：中華郵政。\\n\\n*因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*  \\n\\n因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處僅擷取部分代碼，完整代碼可至[全國專門術語服務平台－臺灣中華郵政3碼郵遞區號](https://twcore.mohw.gov.tw/ts/codesystemRead.jsp?id=postal-code3-tw&status=active&version=2015-01-22&metaId=1&codeStatus=use&show=Y){:target=\\\"_blank\\\"})查閱",
+  "description" : "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.gov.tw/post/internet/Download/index.jsp?ID=2292](https://www.post.gov.tw/post/internet/Download/index.jsp?ID=2292)。屬性命名以與國際的等級一致為主，未採用中華郵政提供之英文名稱。   \\n代碼出版日期：2015-01-22；資料所屬單位：中華郵政。",
   "copyright" : "中華郵政",
   "caseSensitive" : true,
   "content" : "complete",
@@ -34,20 +34,23 @@
     "description" : "縣市名稱",
     "type" : "string"
   }, {
-    "code" : "event",
-    "description" : "異動方式",
-    "type" : "string"
-  }, {
-    "code" : "updateDate",
-    "description" : "異動日期",
-    "type" : "string"
-  } ],
+    "code" : "effectiveDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#effectiveDate",
+    "description" : "生效日期",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "狀態",
+    "type" : "code"
+  }],
   "concept" : [ {
     "code" : "100",
     "display" : "臺北市中正區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -55,15 +58,15 @@
       "code" : "city",
       "valueString" : "中正區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "103",
     "display" : "臺北市大同區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -71,15 +74,15 @@
       "code" : "city",
       "valueString" : "大同區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "104",
     "display" : "臺北市中山區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -87,15 +90,15 @@
       "code" : "city",
       "valueString" : "中山區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "105",
     "display" : "臺北市松山區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -103,15 +106,15 @@
       "code" : "city",
       "valueString" : "松山區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "106",
     "display" : "臺北市大安區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -119,15 +122,15 @@
       "code" : "city",
       "valueString" : "大安區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "108",
     "display" : "臺北市萬華區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -135,15 +138,15 @@
       "code" : "city",
       "valueString" : "萬華區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "110",
     "display" : "臺北市信義區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -151,15 +154,15 @@
       "code" : "city",
       "valueString" : "信義區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "111",
     "display" : "臺北市士林區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -167,15 +170,15 @@
       "code" : "city",
       "valueString" : "士林區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "112",
     "display" : "臺北市北投區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -183,15 +186,15 @@
       "code" : "city",
       "valueString" : "北投區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "114",
     "display" : "臺北市內湖區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -199,15 +202,15 @@
       "code" : "city",
       "valueString" : "內湖區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "115",
     "display" : "臺北市南港區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -215,15 +218,15 @@
       "code" : "city",
       "valueString" : "南港區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "116",
     "display" : "臺北市文山區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺北市"
@@ -231,15 +234,15 @@
       "code" : "city",
       "valueString" : "文山區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "200",
     "display" : "基隆市仁愛區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "基隆市"
@@ -247,15 +250,15 @@
       "code" : "city",
       "valueString" : "仁愛區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "201",
     "display" : "基隆市信義區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "基隆市"
@@ -263,18 +266,18 @@
       "code" : "city",
       "valueString" : "信義區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "202",
     "display" : "基隆市中正區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "基隆市"
@@ -286,11 +289,11 @@
     "code" : "203",
     "display" : "基隆市中山區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "基隆市"
@@ -302,11 +305,11 @@
     "code" : "204",
     "display" : "基隆市安樂區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "基隆市"
@@ -318,11 +321,11 @@
     "code" : "205",
     "display" : "基隆市暖暖區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "基隆市"
@@ -334,11 +337,11 @@
     "code" : "206",
     "display" : "基隆市七堵區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "基隆市"
@@ -350,11 +353,11 @@
     "code" : "207",
     "display" : "新北市萬里區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -366,8 +369,8 @@
     "code" : "208",
     "display" : "新北市金山區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -375,18 +378,18 @@
       "code" : "city",
       "valueString" : "金山區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "209",
     "display" : "連江縣南竿鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "連江縣"
@@ -398,11 +401,11 @@
     "code" : "210",
     "display" : "連江縣北竿鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "連江縣"
@@ -414,11 +417,11 @@
     "code" : "211",
     "display" : "連江縣莒光鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "連江縣"
@@ -430,11 +433,11 @@
     "code" : "212",
     "display" : "連江縣東引鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "連江縣"
@@ -446,11 +449,11 @@
     "code" : "220",
     "display" : "新北市板橋區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "板橋區"
@@ -465,24 +468,24 @@
       "code" : "city",
       "valueString" : "汐止區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "222",
     "display" : "新北市深坑區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -494,14 +497,14 @@
     "code" : "223",
     "display" : "新北市石碇區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "石碇區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -513,21 +516,21 @@
       "code" : "city",
       "valueString" : "瑞芳區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "226",
     "display" : "新北市平溪區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "平溪區"
@@ -535,15 +538,15 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "227",
     "display" : "新北市雙溪區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "雙溪區"
@@ -551,8 +554,8 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "228",
@@ -561,24 +564,24 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "貢寮區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "231",
     "display" : "新北市新店區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "新店區"
@@ -590,8 +593,8 @@
     "code" : "232",
     "display" : "新北市坪林區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "坪林區"
@@ -599,8 +602,8 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "233",
@@ -609,21 +612,21 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "烏來區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "234",
     "display" : "新北市永和區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "永和區"
@@ -631,18 +634,18 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "235",
     "display" : "新北市中和區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "中和區"
@@ -660,18 +663,18 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "237",
     "display" : "新北市三峽區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -679,18 +682,18 @@
       "code" : "city",
       "valueString" : "三峽區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "238",
     "display" : "新北市樹林區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "樹林區"
@@ -705,11 +708,11 @@
       "code" : "city",
       "valueString" : "鶯歌區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -721,11 +724,11 @@
       "code" : "city",
       "valueString" : "三重區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -734,14 +737,14 @@
     "code" : "242",
     "display" : "新北市新莊區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "新莊區"
@@ -753,27 +756,27 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "泰山區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "244",
     "display" : "新北市林口區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "林口區"
@@ -785,11 +788,11 @@
       "code" : "city",
       "valueString" : "蘆洲區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -801,11 +804,11 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueCode" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "五股區"
@@ -814,11 +817,11 @@
     "code" : "249",
     "display" : "新北市八里區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "八里區"
@@ -830,11 +833,11 @@
     "code" : "251",
     "display" : "新北市淡水區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
@@ -849,11 +852,11 @@
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueCode" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "三芝區"
@@ -862,14 +865,14 @@
     "code" : "253",
     "display" : "新北市石門區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "新北市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "石門區"
@@ -878,14 +881,14 @@
     "code" : "260",
     "display" : "宜蘭縣宜蘭市",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "宜蘭"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "宜蘭縣"
@@ -894,8 +897,8 @@
     "code" : "261",
     "display" : "宜蘭縣頭城鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "頭城"
@@ -903,8 +906,8 @@
       "code" : "district",
       "valueString" : "宜蘭縣"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "262",
@@ -916,11 +919,11 @@
       "code" : "district",
       "valueString" : "宜蘭縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "263",
@@ -932,21 +935,21 @@
       "code" : "city",
       "valueString" : "壯圍"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "264",
     "display" : "宜蘭縣員山鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "宜蘭縣"
@@ -961,11 +964,11 @@
       "code" : "city",
       "valueString" : "羅東"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "宜蘭縣"
@@ -977,14 +980,14 @@
       "code" : "city",
       "valueString" : "三星"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "宜蘭縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "267",
@@ -996,11 +999,11 @@
       "code" : "city",
       "valueString" : "大同"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "268",
@@ -1012,11 +1015,11 @@
       "code" : "city",
       "valueString" : "五結"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "269",
@@ -1025,11 +1028,11 @@
       "code" : "city",
       "valueString" : "冬山"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "宜蘭縣"
@@ -1041,11 +1044,11 @@
       "code" : "district",
       "valueString" : "宜蘭縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "city",
       "valueString" : "蘇澳"
@@ -1054,8 +1057,8 @@
     "code" : "272",
     "display" : "宜蘭縣南澳鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "宜蘭縣"
@@ -1063,15 +1066,15 @@
       "code" : "city",
       "valueString" : "南澳"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "290",
     "display" : "宜蘭縣釣魚臺列",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "宜蘭縣"
@@ -1079,21 +1082,21 @@
       "code" : "city",
       "valueString" : "釣魚臺列嶼"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "300",
     "display" : "新竹市香山區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "302",
@@ -1102,14 +1105,14 @@
       "code" : "city",
       "valueString" : "竹北"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "303",
@@ -1118,14 +1121,14 @@
       "code" : "city",
       "valueString" : "湖口"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "304",
@@ -1134,11 +1137,11 @@
       "code" : "district",
       "valueString" : "新竹縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "city",
       "valueString" : "新豐"
@@ -1147,8 +1150,8 @@
     "code" : "305",
     "display" : "新竹縣新埔鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
@@ -1156,21 +1159,21 @@
       "code" : "city",
       "valueString" : "新埔"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "306",
     "display" : "新竹縣關西鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "關西"
@@ -1182,11 +1185,11 @@
       "code" : "city",
       "valueString" : "芎林"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
@@ -1195,14 +1198,14 @@
     "code" : "308",
     "display" : "新竹縣寶山鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "寶山"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
@@ -1211,11 +1214,11 @@
     "code" : "310",
     "display" : "新竹縣竹東鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
@@ -1227,11 +1230,11 @@
     "code" : "311",
     "display" : "新竹縣五峰鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
@@ -1243,14 +1246,14 @@
     "code" : "312",
     "display" : "新竹縣橫山鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "橫山"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
@@ -1265,11 +1268,11 @@
       "code" : "district",
       "valueString" : "新竹縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "314",
@@ -1278,14 +1281,14 @@
       "code" : "city",
       "valueString" : "北埔"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "新竹縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "315",
@@ -1297,18 +1300,18 @@
       "code" : "city",
       "valueString" : "峨眉"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "320",
     "display" : "桃園市中壢區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "桃園市"
@@ -1316,8 +1319,8 @@
       "code" : "city",
       "valueString" : "中壢區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "324",
@@ -1329,21 +1332,21 @@
       "code" : "district",
       "valueString" : "桃園市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "325",
     "display" : "桃園市龍潭區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "桃園市"
@@ -1361,18 +1364,18 @@
       "code" : "city",
       "valueString" : "楊梅區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "327",
     "display" : "桃園市新屋區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "桃園市"
@@ -1380,8 +1383,8 @@
       "code" : "city",
       "valueString" : "新屋區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "328",
@@ -1393,11 +1396,11 @@
       "code" : "city",
       "valueString" : "觀音區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "330",
@@ -1406,27 +1409,27 @@
       "code" : "city",
       "valueString" : "桃園區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "桃園市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "333",
     "display" : "桃園市龜山區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "龜山區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "桃園市"
@@ -1435,11 +1438,11 @@
     "code" : "334",
     "display" : "桃園市八德區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "八德區"
@@ -1454,21 +1457,21 @@
       "code" : "district",
       "valueString" : "桃園市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "大溪區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "336",
     "display" : "桃園市復興區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "桃園市"
@@ -1476,8 +1479,8 @@
       "code" : "city",
       "valueString" : "復興區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "337",
@@ -1486,14 +1489,14 @@
       "code" : "city",
       "valueString" : "大園區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "桃園市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "338",
@@ -1502,24 +1505,24 @@
       "code" : "district",
       "valueString" : "桃園市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "蘆竹區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "350",
     "display" : "苗栗縣竹南鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1531,8 +1534,8 @@
     "code" : "351",
     "display" : "苗栗縣頭份市",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "頭份"
@@ -1540,8 +1543,8 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "352",
@@ -1550,11 +1553,11 @@
       "code" : "city",
       "valueString" : "三灣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1566,14 +1569,14 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "南庄"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "354",
@@ -1582,27 +1585,27 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "獅潭"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "356",
     "display" : "苗栗縣後龍鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "city",
       "valueString" : "後龍"
@@ -1617,11 +1620,11 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "358",
@@ -1630,11 +1633,11 @@
       "code" : "city",
       "valueString" : "苑裡"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1649,11 +1652,11 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "361",
@@ -1662,21 +1665,21 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "city",
       "valueString" : "造橋"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "362",
     "display" : "苗栗縣頭屋鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1684,8 +1687,8 @@
       "code" : "city",
       "valueString" : "頭屋"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "363",
@@ -1694,11 +1697,11 @@
       "code" : "city",
       "valueString" : "公館"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1707,8 +1710,8 @@
     "code" : "364",
     "display" : "苗栗縣大湖鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1716,15 +1719,15 @@
       "code" : "city",
       "valueString" : "大湖"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "365",
     "display" : "苗栗縣泰安鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "泰安"
@@ -1732,8 +1735,8 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "366",
@@ -1742,11 +1745,11 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "city",
       "valueString" : "銅鑼"
@@ -1761,21 +1764,21 @@
       "code" : "district",
       "valueString" : "苗栗縣"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "368",
     "display" : "苗栗縣西湖鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1787,11 +1790,11 @@
     "code" : "369",
     "display" : "苗栗縣卓蘭鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "苗栗縣"
@@ -1803,11 +1806,11 @@
     "code" : "400",
     "display" : "臺中市中區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1822,11 +1825,11 @@
       "code" : "city",
       "valueString" : "東區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1838,11 +1841,11 @@
       "code" : "city",
       "valueString" : "南區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1851,8 +1854,8 @@
     "code" : "403",
     "display" : "臺中市西區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1860,15 +1863,15 @@
       "code" : "city",
       "valueString" : "西區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "404",
     "display" : "臺中市北區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1876,18 +1879,18 @@
       "code" : "city",
       "valueString" : "北區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "406",
     "display" : "臺中市北屯區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1899,11 +1902,11 @@
     "code" : "407",
     "display" : "臺中市西屯區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1915,11 +1918,11 @@
     "code" : "408",
     "display" : "臺中市南屯區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1934,14 +1937,14 @@
       "code" : "city",
       "valueString" : "太平區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "412",
@@ -1950,24 +1953,24 @@
       "code" : "city",
       "valueString" : "大里區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "413",
     "display" : "臺中市霧峰區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1979,14 +1982,14 @@
     "code" : "414",
     "display" : "臺中市烏日區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "烏日區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -1995,11 +1998,11 @@
     "code" : "420",
     "display" : "臺中市豐原區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2014,11 +2017,11 @@
       "code" : "city",
       "valueString" : "后里區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2030,24 +2033,24 @@
       "code" : "city",
       "valueString" : "石岡區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "423",
     "display" : "臺中市東勢區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2062,21 +2065,21 @@
       "code" : "district",
       "valueString" : "臺中市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "和平區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "426",
     "display" : "臺中市新社區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2084,8 +2087,8 @@
       "code" : "city",
       "valueString" : "新社區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "427",
@@ -2094,11 +2097,11 @@
       "code" : "city",
       "valueString" : "潭子區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2107,8 +2110,8 @@
     "code" : "428",
     "display" : "臺中市大雅區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "大雅區"
@@ -2116,8 +2119,8 @@
       "code" : "district",
       "valueString" : "臺中市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "429",
@@ -2126,11 +2129,11 @@
       "code" : "city",
       "valueString" : "神岡區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2142,21 +2145,21 @@
       "code" : "district",
       "valueString" : "臺中市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "city",
       "valueString" : "大肚區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "433",
     "display" : "臺中市沙鹿區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2164,18 +2167,18 @@
       "code" : "city",
       "valueString" : "沙鹿區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "434",
     "display" : "臺中市龍井區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2187,11 +2190,11 @@
     "code" : "435",
     "display" : "臺中市梧棲區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2203,11 +2206,11 @@
     "code" : "436",
     "display" : "臺中市清水區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2222,14 +2225,14 @@
       "code" : "city",
       "valueString" : "大甲區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "438",
@@ -2241,11 +2244,11 @@
       "code" : "city",
       "valueString" : "外埔區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "439",
@@ -2254,11 +2257,11 @@
       "code" : "city",
       "valueString" : "大安區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺中市"
@@ -2267,8 +2270,8 @@
     "code" : "500",
     "display" : "彰化縣彰化市",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2276,8 +2279,8 @@
       "code" : "city",
       "valueString" : "彰化"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "502",
@@ -2289,11 +2292,11 @@
       "code" : "city",
       "valueString" : "芬園"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "503",
@@ -2305,21 +2308,21 @@
       "code" : "city",
       "valueString" : "花壇"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "504",
     "display" : "彰化縣秀水鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2331,11 +2334,11 @@
     "code" : "505",
     "display" : "彰化縣鹿港鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2347,11 +2350,11 @@
     "code" : "506",
     "display" : "彰化縣福興鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2369,18 +2372,18 @@
       "code" : "city",
       "valueString" : "線西"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "508",
     "display" : "彰化縣和美鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2388,8 +2391,8 @@
       "code" : "city",
       "valueString" : "和美"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "509",
@@ -2401,11 +2404,11 @@
       "code" : "city",
       "valueString" : "伸港"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "510",
@@ -2414,11 +2417,11 @@
       "code" : "city",
       "valueString" : "員林"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2427,11 +2430,11 @@
     "code" : "511",
     "display" : "彰化縣社頭鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2443,11 +2446,11 @@
     "code" : "512",
     "display" : "彰化縣永靖鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2459,11 +2462,11 @@
     "code" : "513",
     "display" : "彰化縣埔心鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2478,11 +2481,11 @@
       "code" : "city",
       "valueString" : "溪湖"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2491,11 +2494,11 @@
     "code" : "515",
     "display" : "彰化縣大村鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2510,11 +2513,11 @@
       "code" : "city",
       "valueString" : "埔鹽"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2529,11 +2532,11 @@
       "code" : "city",
       "valueString" : "田中"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "521",
@@ -2545,21 +2548,21 @@
       "code" : "city",
       "valueString" : "北斗"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "522",
     "display" : "彰化縣田尾鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2571,8 +2574,8 @@
     "code" : "523",
     "display" : "彰化縣埤頭鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2580,8 +2583,8 @@
       "code" : "city",
       "valueString" : "埤頭"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "524",
@@ -2593,24 +2596,24 @@
       "code" : "city",
       "valueString" : "溪州"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "525",
     "display" : "彰化縣竹塘鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "竹塘"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2619,8 +2622,8 @@
     "code" : "526",
     "display" : "彰化縣二林鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
@@ -2628,8 +2631,8 @@
       "code" : "city",
       "valueString" : "二林"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "527",
@@ -2638,14 +2641,14 @@
       "code" : "city",
       "valueString" : "大城"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "彰化縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "528",
@@ -2654,11 +2657,11 @@
       "code" : "district",
       "valueString" : "彰化縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "city",
       "valueString" : "芳苑"
@@ -2673,11 +2676,11 @@
       "code" : "city",
       "valueString" : "二水"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "540",
@@ -2689,21 +2692,21 @@
       "code" : "city",
       "valueString" : "南投"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "541",
     "display" : "南投縣中寮鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2715,11 +2718,11 @@
     "code" : "542",
     "display" : "南投縣草屯鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2731,11 +2734,11 @@
     "code" : "544",
     "display" : "南投縣國姓鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2750,11 +2753,11 @@
       "code" : "city",
       "valueString" : "埔里"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2763,11 +2766,11 @@
     "code" : "546",
     "display" : "南投縣仁愛鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2779,8 +2782,8 @@
     "code" : "551",
     "display" : "南投縣名間鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2788,21 +2791,21 @@
       "code" : "city",
       "valueString" : "名間"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "552",
     "display" : "南投縣集集鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "city",
       "valueString" : "集集"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2811,11 +2814,11 @@
     "code" : "553",
     "display" : "南投縣水里鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2827,8 +2830,8 @@
     "code" : "555",
     "display" : "南投縣魚池鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2836,18 +2839,18 @@
       "code" : "city",
       "valueString" : "魚池"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "556",
     "display" : "南投縣信義鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2859,11 +2862,11 @@
     "code" : "557",
     "display" : "南投縣竹山鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2878,11 +2881,11 @@
       "code" : "city",
       "valueString" : "鹿谷"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "南投縣"
@@ -2891,11 +2894,11 @@
     "code" : "600",
     "display" : "嘉義市東區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "嘉義市"
@@ -2904,8 +2907,8 @@
     "code" : "602",
     "display" : "嘉義縣番路鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -2913,8 +2916,8 @@
       "code" : "city",
       "valueString" : "番路"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "603",
@@ -2926,21 +2929,21 @@
       "code" : "city",
       "valueString" : "梅山"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "604",
     "display" : "嘉義縣竹崎鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -2952,8 +2955,8 @@
     "code" : "605",
     "display" : "嘉義縣阿里山鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -2961,15 +2964,15 @@
       "code" : "city",
       "valueString" : "阿里山"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "606",
     "display" : "嘉義縣中埔鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -2977,8 +2980,8 @@
       "code" : "city",
       "valueString" : "中埔"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "607",
@@ -2990,11 +2993,11 @@
       "code" : "city",
       "valueString" : "大埔"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "608",
@@ -3006,11 +3009,11 @@
       "code" : "city",
       "valueString" : "水上"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "611",
@@ -3019,11 +3022,11 @@
       "code" : "city",
       "valueString" : "鹿草"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3032,8 +3035,8 @@
     "code" : "612",
     "display" : "嘉義縣太保市",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3041,18 +3044,18 @@
       "code" : "city",
       "valueString" : "太保"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "613",
     "display" : "嘉義縣朴子市",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3064,14 +3067,14 @@
     "code" : "614",
     "display" : "嘉義縣東石鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "東石"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3080,11 +3083,11 @@
     "code" : "615",
     "display" : "嘉義縣六腳鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3099,11 +3102,11 @@
       "code" : "city",
       "valueString" : "新港"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3112,11 +3115,11 @@
     "code" : "621",
     "display" : "嘉義縣民雄鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3134,11 +3137,11 @@
       "code" : "city",
       "valueString" : "大林"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "623",
@@ -3147,11 +3150,11 @@
       "code" : "city",
       "valueString" : "溪口"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3160,11 +3163,11 @@
     "code" : "624",
     "display" : "嘉義縣義竹鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3176,11 +3179,11 @@
     "code" : "625",
     "display" : "嘉義縣布袋鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "嘉義縣"
@@ -3195,11 +3198,11 @@
       "code" : "city",
       "valueString" : "斗南"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3208,8 +3211,8 @@
     "code" : "631",
     "display" : "雲林縣大埤鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3217,8 +3220,8 @@
       "code" : "city",
       "valueString" : "大埤"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "632",
@@ -3230,21 +3233,21 @@
       "code" : "city",
       "valueString" : "虎尾"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "633",
     "display" : "雲林縣土庫鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3262,21 +3265,21 @@
       "code" : "city",
       "valueString" : "褒忠"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "635",
     "display" : "雲林縣東勢鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3288,8 +3291,8 @@
     "code" : "636",
     "display" : "雲林縣臺西鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3297,8 +3300,8 @@
       "code" : "city",
       "valueString" : "臺西"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "637",
@@ -3310,11 +3313,11 @@
       "code" : "city",
       "valueString" : "崙背"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "638",
@@ -3323,11 +3326,11 @@
       "code" : "city",
       "valueString" : "麥寮"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3336,11 +3339,11 @@
     "code" : "640",
     "display" : "雲林縣斗六市",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3352,11 +3355,11 @@
     "code" : "643",
     "display" : "雲林縣林內鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3368,11 +3371,11 @@
     "code" : "646",
     "display" : "雲林縣古坑鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3384,11 +3387,11 @@
     "code" : "647",
     "display" : "雲林縣莿桐鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3400,11 +3403,11 @@
     "code" : "648",
     "display" : "雲林縣西螺鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3419,24 +3422,24 @@
       "code" : "city",
       "valueString" : "二崙"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "651",
     "display" : "雲林縣北港鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3448,14 +3451,14 @@
     "code" : "652",
     "display" : "雲林縣水林鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "水林"
@@ -3464,11 +3467,11 @@
     "code" : "653",
     "display" : "雲林縣口湖鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3480,11 +3483,11 @@
     "code" : "654",
     "display" : "雲林縣四湖鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3496,14 +3499,14 @@
     "code" : "655",
     "display" : "雲林縣元長鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "元長"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "雲林縣"
@@ -3512,11 +3515,11 @@
     "code" : "700",
     "display" : "臺南市中西區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3528,11 +3531,11 @@
     "code" : "701",
     "display" : "臺南市東區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3550,21 +3553,21 @@
       "code" : "city",
       "valueString" : "南區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "704",
     "display" : "臺南市北區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3576,8 +3579,8 @@
     "code" : "708",
     "display" : "臺南市安平區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3585,8 +3588,8 @@
       "code" : "city",
       "valueString" : "安平區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "709",
@@ -3595,11 +3598,11 @@
       "code" : "city",
       "valueString" : "安南區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3614,11 +3617,11 @@
       "code" : "city",
       "valueString" : "永康區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "711",
@@ -3630,18 +3633,18 @@
       "code" : "city",
       "valueString" : "歸仁區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "712",
     "display" : "臺南市新化區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3649,15 +3652,15 @@
       "code" : "city",
       "valueString" : "新化區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "713",
     "display" : "臺南市左鎮區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3665,8 +3668,8 @@
       "code" : "city",
       "valueString" : "左鎮區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "714",
@@ -3675,11 +3678,11 @@
       "code" : "city",
       "valueString" : "玉井區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3694,11 +3697,11 @@
       "code" : "city",
       "valueString" : "楠西區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "716",
@@ -3710,21 +3713,21 @@
       "code" : "city",
       "valueString" : "南化區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "717",
     "display" : "臺南市仁德區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3736,11 +3739,11 @@
     "code" : "718",
     "display" : "臺南市關廟區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3758,11 +3761,11 @@
       "code" : "city",
       "valueString" : "龍崎區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "720",
@@ -3771,11 +3774,11 @@
       "code" : "district",
       "valueString" : "臺南市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "官田區"
@@ -3790,11 +3793,11 @@
       "code" : "city",
       "valueString" : "麻豆區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "722",
@@ -3803,14 +3806,14 @@
       "code" : "district",
       "valueString" : "臺南市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "佳里區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "723",
@@ -3822,18 +3825,18 @@
       "code" : "city",
       "valueString" : "西港區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "724",
     "display" : "臺南市七股區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3841,15 +3844,15 @@
       "code" : "city",
       "valueString" : "七股區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "725",
     "display" : "臺南市將軍區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3857,8 +3860,8 @@
       "code" : "city",
       "valueString" : "將軍區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "726",
@@ -3870,11 +3873,11 @@
       "code" : "city",
       "valueString" : "學甲區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "727",
@@ -3886,24 +3889,24 @@
       "code" : "district",
       "valueString" : "臺南市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "730",
     "display" : "臺南市新營區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "新營區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3918,11 +3921,11 @@
       "code" : "city",
       "valueString" : "後壁區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "732",
@@ -3931,11 +3934,11 @@
       "code" : "city",
       "valueString" : "白河區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -3950,11 +3953,11 @@
       "code" : "city",
       "valueString" : "東山區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "734",
@@ -3966,11 +3969,11 @@
       "code" : "city",
       "valueString" : "六甲區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "735",
@@ -3982,11 +3985,11 @@
       "code" : "city",
       "valueString" : "下營區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "736",
@@ -3998,11 +4001,11 @@
       "code" : "city",
       "valueString" : "柳營區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "737",
@@ -4014,11 +4017,11 @@
       "code" : "city",
       "valueString" : "鹽水區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "741",
@@ -4030,21 +4033,21 @@
       "code" : "city",
       "valueString" : "善化區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "742",
     "display" : "臺南市大內區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺南市"
@@ -4062,11 +4065,11 @@
       "code" : "city",
       "valueString" : "山上區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "744",
@@ -4078,11 +4081,11 @@
       "code" : "city",
       "valueString" : "新市區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "745",
@@ -4094,18 +4097,18 @@
       "code" : "city",
       "valueString" : "安定區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "800",
     "display" : "高雄市新興區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4113,8 +4116,8 @@
       "code" : "city",
       "valueString" : "新興區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "801",
@@ -4123,11 +4126,11 @@
       "code" : "district",
       "valueString" : "高雄市"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "前金區"
@@ -4142,21 +4145,21 @@
       "code" : "city",
       "valueString" : "苓雅區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "803",
     "display" : "高雄市鹽埕區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4168,11 +4171,11 @@
     "code" : "804",
     "display" : "高雄市鼓山區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4190,11 +4193,11 @@
       "code" : "city",
       "valueString" : "旗津區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "806",
@@ -4203,11 +4206,11 @@
       "code" : "city",
       "valueString" : "前鎮區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4222,11 +4225,11 @@
       "code" : "city",
       "valueString" : "三民區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "811",
@@ -4238,11 +4241,11 @@
       "code" : "city",
       "valueString" : "楠梓區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "812",
@@ -4251,11 +4254,11 @@
       "code" : "city",
       "valueString" : "小港區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4264,8 +4267,8 @@
     "code" : "813",
     "display" : "高雄市左營區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4273,8 +4276,8 @@
       "code" : "city",
       "valueString" : "左營區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "814",
@@ -4286,11 +4289,11 @@
       "code" : "city",
       "valueString" : "仁武區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "815",
@@ -4302,21 +4305,21 @@
       "code" : "city",
       "valueString" : "大社區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "817",
     "display" : "南海島東沙",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "南海諸島"
@@ -4328,11 +4331,11 @@
     "code" : "819",
     "display" : "南海島南沙",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "南海諸島"
@@ -4350,24 +4353,24 @@
       "code" : "city",
       "valueString" : "岡山區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "821",
     "display" : "高雄市路竹區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "路竹區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4376,11 +4379,11 @@
     "code" : "822",
     "display" : "高雄市阿蓮區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4392,11 +4395,11 @@
     "code" : "823",
     "display" : "高雄市田寮區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4408,11 +4411,11 @@
     "code" : "824",
     "display" : "高雄市燕巢區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "燕巢區"
@@ -4424,11 +4427,11 @@
     "code" : "825",
     "display" : "高雄市橋頭區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4440,11 +4443,11 @@
     "code" : "826",
     "display" : "高雄市梓官區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4462,11 +4465,11 @@
       "code" : "city",
       "valueString" : "彌陀區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "828",
@@ -4478,11 +4481,11 @@
       "code" : "city",
       "valueString" : "永安區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "829",
@@ -4494,11 +4497,11 @@
       "code" : "city",
       "valueString" : "湖內區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "830",
@@ -4510,18 +4513,18 @@
       "code" : "city",
       "valueString" : "鳳山區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "831",
     "display" : "高雄市大寮區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4529,8 +4532,8 @@
       "code" : "city",
       "valueString" : "大寮區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "832",
@@ -4542,11 +4545,11 @@
       "code" : "city",
       "valueString" : "林園區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "833",
@@ -4555,21 +4558,21 @@
       "code" : "district",
       "valueString" : "高雄市"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "鳥松區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "840",
     "display" : "高雄市大樹區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4577,8 +4580,8 @@
       "code" : "city",
       "valueString" : "大樹區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     } ]
   }, {
     "code" : "842",
@@ -4590,21 +4593,21 @@
       "code" : "city",
       "valueString" : "旗山區"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "843",
     "display" : "高雄市美濃區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4616,8 +4619,8 @@
     "code" : "844",
     "display" : "高雄市六龜區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4625,8 +4628,8 @@
       "code" : "city",
       "valueString" : "六龜區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "845",
@@ -4635,11 +4638,11 @@
       "code" : "city",
       "valueString" : "內門區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4648,8 +4651,8 @@
     "code" : "846",
     "display" : "高雄市杉林區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4657,15 +4660,15 @@
       "code" : "city",
       "valueString" : "杉林區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "847",
     "display" : "高雄市甲仙區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4673,15 +4676,15 @@
       "code" : "city",
       "valueString" : "甲仙區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "848",
     "display" : "高雄市桃源區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4689,18 +4692,18 @@
       "code" : "city",
       "valueString" : "桃源區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "849",
     "display" : "高雄市那瑪夏區",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4712,8 +4715,8 @@
     "code" : "851",
     "display" : "高雄市茂林區",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4721,8 +4724,8 @@
       "code" : "city",
       "valueString" : "茂林區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     } ]
   }, {
     "code" : "852",
@@ -4731,11 +4734,11 @@
       "code" : "city",
       "valueString" : "茄萣區"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2015-01"
+      "code" : "effectiveDate",
+      "valueString" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "新增"
+      "code" : "status",
+      "valueString" : "acitve"
     }, {
       "code" : "district",
       "valueString" : "高雄市"
@@ -4750,11 +4753,11 @@
       "code" : "city",
       "valueString" : "馬公"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "881",
@@ -4763,11 +4766,11 @@
       "code" : "city",
       "valueString" : "西嶼"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "澎湖縣"
@@ -4776,8 +4779,8 @@
     "code" : "882",
     "display" : "澎湖縣望安鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "澎湖縣"
@@ -4785,18 +4788,18 @@
       "code" : "city",
       "valueString" : "望安"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "883",
     "display" : "澎湖縣七美鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "澎湖縣"
@@ -4814,11 +4817,11 @@
       "code" : "city",
       "valueString" : "白沙"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "885",
@@ -4830,11 +4833,11 @@
       "code" : "city",
       "valueString" : "湖西"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "890",
@@ -4843,14 +4846,14 @@
       "code" : "city",
       "valueString" : "金沙"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "金門縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "891",
@@ -4862,11 +4865,11 @@
       "code" : "city",
       "valueString" : "金湖"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "892",
@@ -4878,11 +4881,11 @@
       "code" : "city",
       "valueString" : "金寧"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "893",
@@ -4894,21 +4897,21 @@
       "code" : "city",
       "valueString" : "金城"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "894",
     "display" : "金門縣烈嶼鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "金門縣"
@@ -4920,11 +4923,11 @@
     "code" : "896",
     "display" : "金門縣烏坵鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "金門縣"
@@ -4939,21 +4942,21 @@
       "code" : "city",
       "valueString" : "屏東"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "901",
     "display" : "屏東縣三地門鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -4961,8 +4964,8 @@
       "code" : "city",
       "valueString" : "三地門"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "902",
@@ -4971,11 +4974,11 @@
       "code" : "city",
       "valueString" : "霧臺"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -4990,18 +4993,18 @@
       "code" : "city",
       "valueString" : "瑪家"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "904",
     "display" : "屏東縣九如鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5009,15 +5012,15 @@
       "code" : "city",
       "valueString" : "九如"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "905",
     "display" : "屏東縣里港鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5025,15 +5028,15 @@
       "code" : "city",
       "valueString" : "里港"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "906",
     "display" : "屏東縣高樹鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5041,18 +5044,18 @@
       "code" : "city",
       "valueString" : "高樹"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "907",
     "display" : "屏東縣鹽埔鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5064,11 +5067,11 @@
     "code" : "908",
     "display" : "屏東縣長治鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5080,14 +5083,14 @@
     "code" : "909",
     "display" : "屏東縣麟洛鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "city",
       "valueString" : "麟洛"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5096,11 +5099,11 @@
     "code" : "911",
     "display" : "屏東縣竹田鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5115,11 +5118,11 @@
       "code" : "city",
       "valueString" : "內埔"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5128,11 +5131,11 @@
     "code" : "913",
     "display" : "屏東縣萬丹鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5147,14 +5150,14 @@
       "code" : "city",
       "valueString" : "潮州"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "921",
@@ -5166,11 +5169,11 @@
       "code" : "city",
       "valueString" : "泰武"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "922",
@@ -5179,11 +5182,11 @@
       "code" : "city",
       "valueString" : "來義"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5195,11 +5198,11 @@
       "code" : "city",
       "valueString" : "萬巒"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5208,8 +5211,8 @@
     "code" : "924",
     "display" : "屏東縣崁頂鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5217,15 +5220,15 @@
       "code" : "city",
       "valueString" : "崁頂"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "925",
     "display" : "屏東縣新埤鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5233,8 +5236,8 @@
       "code" : "city",
       "valueString" : "新埤"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "926",
@@ -5243,11 +5246,11 @@
       "code" : "city",
       "valueString" : "南州"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5256,8 +5259,8 @@
     "code" : "927",
     "display" : "屏東縣林邊鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5265,15 +5268,15 @@
       "code" : "city",
       "valueString" : "林邊"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "928",
     "display" : "屏東縣東港鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5281,18 +5284,18 @@
       "code" : "city",
       "valueString" : "東港"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "929",
     "display" : "屏東縣琉球鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5304,8 +5307,8 @@
     "code" : "931",
     "display" : "屏東縣佳冬鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5313,15 +5316,15 @@
       "code" : "city",
       "valueString" : "佳冬"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "932",
     "display" : "屏東縣新園鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5329,8 +5332,8 @@
       "code" : "city",
       "valueString" : "新園"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "940",
@@ -5342,11 +5345,11 @@
       "code" : "city",
       "valueString" : "枋寮"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "941",
@@ -5355,24 +5358,24 @@
       "code" : "district",
       "valueString" : "屏東縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "枋山"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "942",
     "display" : "屏東縣春日鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5384,11 +5387,11 @@
     "code" : "943",
     "display" : "屏東縣獅子鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5406,18 +5409,18 @@
       "code" : "city",
       "valueString" : "車城"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "945",
     "display" : "屏東縣牡丹鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5425,18 +5428,18 @@
       "code" : "city",
       "valueString" : "牡丹"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "946",
     "display" : "屏東縣恆春鎮",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5448,8 +5451,8 @@
     "code" : "947",
     "display" : "屏東縣滿州鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "屏東縣"
@@ -5457,15 +5460,15 @@
       "code" : "city",
       "valueString" : "滿州"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "950",
     "display" : "臺東縣臺東市",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5473,18 +5476,18 @@
       "code" : "city",
       "valueString" : "臺東"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "951",
     "display" : "臺東縣綠島鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5502,21 +5505,21 @@
       "code" : "city",
       "valueString" : "蘭嶼"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "953",
     "display" : "臺東縣延平鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5528,8 +5531,8 @@
     "code" : "954",
     "display" : "臺東縣卑南鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5537,15 +5540,15 @@
       "code" : "city",
       "valueString" : "卑南"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "955",
     "display" : "臺東縣鹿野鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5553,8 +5556,8 @@
       "code" : "city",
       "valueString" : "鹿野"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "956",
@@ -5566,18 +5569,18 @@
       "code" : "city",
       "valueString" : "關山"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     } ]
   }, {
     "code" : "957",
     "display" : "臺東縣海端鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5585,18 +5588,18 @@
       "code" : "city",
       "valueString" : "海端"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "958",
     "display" : "臺東縣池上鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5608,8 +5611,8 @@
     "code" : "959",
     "display" : "臺東縣東河鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5617,18 +5620,18 @@
       "code" : "city",
       "valueString" : "東河"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "961",
     "display" : "臺東縣成功鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5640,8 +5643,8 @@
     "code" : "962",
     "display" : "臺東縣長濱鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5649,15 +5652,15 @@
       "code" : "city",
       "valueString" : "長濱"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "963",
     "display" : "臺東縣太麻里鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5665,15 +5668,15 @@
       "code" : "city",
       "valueString" : "太麻里"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "964",
     "display" : "臺東縣金峰鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5681,15 +5684,15 @@
       "code" : "city",
       "valueString" : "金峰"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "965",
     "display" : "臺東縣大武鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5697,15 +5700,15 @@
       "code" : "city",
       "valueString" : "大武"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "966",
     "display" : "臺東縣達仁鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "臺東縣"
@@ -5713,18 +5716,18 @@
       "code" : "city",
       "valueString" : "達仁"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "970",
     "display" : "花蓮縣花蓮市",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
@@ -5736,11 +5739,11 @@
     "code" : "971",
     "display" : "花蓮縣新城鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
@@ -5752,8 +5755,8 @@
     "code" : "972",
     "display" : "花蓮縣秀林鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
@@ -5761,18 +5764,18 @@
       "code" : "city",
       "valueString" : "秀林"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "973",
     "display" : "花蓮縣吉安鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
@@ -5790,18 +5793,18 @@
       "code" : "city",
       "valueString" : "壽豐"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "975",
     "display" : "花蓮縣鳳林鎮",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
@@ -5809,21 +5812,21 @@
       "code" : "city",
       "valueString" : "鳳林"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "976",
     "display" : "花蓮縣光復鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "光復"
@@ -5838,21 +5841,21 @@
       "code" : "city",
       "valueString" : "豐濱"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "978",
     "display" : "花蓮縣瑞穗鄉",
     "property" : [ {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
@@ -5864,14 +5867,14 @@
     "code" : "979",
     "display" : "花蓮縣萬榮鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
       "code" : "city",
       "valueString" : "萬榮"
@@ -5886,18 +5889,18 @@
       "code" : "city",
       "valueString" : "玉里"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   }, {
     "code" : "982",
     "display" : "花蓮縣卓溪鄉",
     "property" : [ {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     }, {
       "code" : "district",
       "valueString" : "花蓮縣"
@@ -5905,8 +5908,8 @@
       "code" : "city",
       "valueString" : "卓溪"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     } ]
   }, {
     "code" : "983",
@@ -5918,11 +5921,11 @@
       "code" : "city",
       "valueString" : "富里"
     }, {
-      "code" : "updateDate",
-      "valueString" : "2023-12"
+      "code" : "effectiveDate",
+      "valueDateTime" : "2015-01-22"
     }, {
-      "code" : "event",
-      "valueString" : "修改"
+      "code" : "status",
+      "valueCode" : "active"
     } ]
   } ]
 }

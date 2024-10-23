@@ -6,14 +6,14 @@
       "resourceType" : "ImplementationGuide",
       "id" : "tw.gov.mohw.twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ImplementationGuide/tw.gov.mohw.twcore",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
       "filename" : "CapabilityStatement-CapabilityStatementTWCoreClient.json",
       "resourceType" : "CapabilityStatement",
       "id" : "CapabilityStatementTWCoreClient",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CapabilityStatement/CapabilityStatementTWCoreClient",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "requirements"
     },
     {
@@ -21,23 +21,23 @@
       "resourceType" : "CapabilityStatement",
       "id" : "CapabilityStatementTWCoreServer",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CapabilityStatement/CapabilityStatementTWCoreServer",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "requirements"
     },
     {
-      "filename" : "CodeSystem-health-department-nhi-tw.json",
+      "filename" : "CodeSystem-careplan-category-tw.json",
       "resourceType" : "CodeSystem",
-      "id" : "health-department-nhi-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/health-department-nhi-tw",
-      "version" : "2024-01-04",
+      "id" : "careplan-category-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/careplan-category-tw",
+      "version" : "0.3.0",
       "content" : "complete"
     },
     {
-      "filename" : "CodeSystem-health-department-sta-tw.json",
+      "filename" : "CodeSystem-category-code-tw.json",
       "resourceType" : "CodeSystem",
-      "id" : "health-department-sta-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/health-department-sta-tw",
-      "version" : "2024-01-04",
+      "id" : "category-code-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/category-code-tw",
+      "version" : "2024-08-31",
       "content" : "complete"
     },
     {
@@ -65,6 +65,14 @@
       "content" : "complete"
     },
     {
+      "filename" : "CodeSystem-icd-10-cm-2023-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icd-10-cm-2023-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw",
+      "version" : "2024-01-31",
+      "content" : "complete"
+    },
+    {
       "filename" : "CodeSystem-icd-10-pcs-2014-tw.json",
       "resourceType" : "CodeSystem",
       "id" : "icd-10-pcs-2014-tw",
@@ -81,11 +89,27 @@
       "content" : "complete"
     },
     {
+      "filename" : "CodeSystem-icd-10-pcs-2023-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icd-10-pcs-2023-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2023-tw",
+      "version" : "2024-01-31",
+      "content" : "complete"
+    },
+    {
       "filename" : "CodeSystem-icd-9-cm-2001-tw.json",
       "resourceType" : "CodeSystem",
       "id" : "icd-9-cm-2001-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-9-cm-2001-tw",
-      "version" : "2023-05-09",
+      "version" : "2023-05-09-09",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-industry-dgbas-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "industry-dgbas-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/industry-dgbas-tw",
+      "version" : "2021-01-01",
       "content" : "complete"
     },
     {
@@ -105,11 +129,27 @@
       "content" : "complete"
     },
     {
+      "filename" : "CodeSystem-medical-consultation-department-nhi-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "medical-consultation-department-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw",
+      "version" : "2024-05-27",
+      "content" : "complete"
+    },
+    {
       "filename" : "CodeSystem-medical-service-payment-tw.json",
       "resourceType" : "CodeSystem",
       "id" : "medical-service-payment-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw",
-      "version" : "2022-10-07",
+      "version" : "2024-05-01",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-medical-treatment-department-nhi-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "medical-treatment-department-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw",
+      "version" : "2024-05-27",
       "content" : "complete"
     },
     {
@@ -117,7 +157,7 @@
       "resourceType" : "CodeSystem",
       "id" : "medication-device-fda-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-device-fda-tw",
-      "version" : "2022-08-08",
+      "version" : "2024-06-06",
       "content" : "complete"
     },
     {
@@ -125,15 +165,15 @@
       "resourceType" : "CodeSystem",
       "id" : "medication-fda-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-fda-tw",
-      "version" : "2022-08-03",
+      "version" : "2024-06-20",
       "content" : "complete"
     },
     {
-      "filename" : "CodeSystem-medication-frequency-tw.json",
+      "filename" : "CodeSystem-medication-frequency-nhi-tw.json",
       "resourceType" : "CodeSystem",
-      "id" : "medication-frequency-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-frequency-tw",
-      "version" : "2022-01-28",
+      "id" : "medication-frequency-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-frequency-nhi-tw",
+      "version" : "2024-05-27",
       "content" : "complete"
     },
     {
@@ -141,7 +181,7 @@
       "resourceType" : "CodeSystem",
       "id" : "medication-nhi-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-nhi-tw",
-      "version" : "2022-08-03",
+      "version" : "2024-06-13",
       "content" : "complete"
     },
     {
@@ -149,7 +189,31 @@
       "resourceType" : "CodeSystem",
       "id" : "medication-path-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-path-tw",
-      "version" : "2022-01-28",
+      "version" : "2024-06-04",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-nhi-medication-ch-herb-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "nhi-medication-ch-herb-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/nhi-medication-ch-herb-tw",
+      "version" : "2024-05-31",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-occupation-lia-roc-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "occupation-lia-roc-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/occupation-lia-roc-tw",
+      "version" : "2023-06-01",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-occupation-mol-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "occupation-mol-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/occupation-mol-tw",
+      "version" : "2010-05-01",
       "content" : "complete"
     },
     {
@@ -157,7 +221,7 @@
       "resourceType" : "CodeSystem",
       "id" : "organization-identifier-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/organization-identifier-tw",
-      "version" : "2022-07-31",
+      "version" : "2024-08-19",
       "content" : "complete"
     },
     {
@@ -181,7 +245,15 @@
       "resourceType" : "CodeSystem",
       "id" : "postal-code6-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code6-tw",
-      "version" : "2022-10-01",
+      "version" : "2024-06-28",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-provenance-participant-type-tw.json",
+      "resourceType" : "CodeSystem",
+      "id" : "provenance-participant-type-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/provenance-participant-type-tw",
+      "version" : "2024-08-31",
       "content" : "complete"
     },
     {
@@ -193,53 +265,53 @@
       "content" : "complete"
     },
     {
-      "filename" : "ConceptMap-health-department-nhi-tw.json",
-      "resourceType" : "ConceptMap",
-      "id" : "health-department-nhi-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/health-department-nhi-tw",
-      "version" : "0.2.1"
-    },
-    {
-      "filename" : "ConceptMap-health-department-sta-tw.json",
-      "resourceType" : "ConceptMap",
-      "id" : "health-department-sta-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/health-department-sta-tw",
-      "version" : "0.2.1"
-    },
-    {
       "filename" : "ConceptMap-health-professional-tw.json",
       "resourceType" : "ConceptMap",
       "id" : "health-professional-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/health-professional-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
       "filename" : "ConceptMap-marital-status-tw.json",
       "resourceType" : "ConceptMap",
       "id" : "marital-status-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/marital-status-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ConceptMap-medical-consultation-department-nhi-tw.json",
+      "resourceType" : "ConceptMap",
+      "id" : "medical-consultation-department-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/medical-consultation-department-nhi-tw",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ConceptMap-medical-treatment-department-nhi-tw.json",
+      "resourceType" : "ConceptMap",
+      "id" : "medical-treatment-department-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/medical-treatment-department-nhi-tw",
+      "version" : "0.3.0"
     },
     {
       "filename" : "ConceptMap-medication-frequency-tw.json",
       "resourceType" : "ConceptMap",
       "id" : "medication-frequency-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/medication-frequency-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
       "filename" : "ConceptMap-medication-path-tw.json",
       "resourceType" : "ConceptMap",
       "id" : "medication-path-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ConceptMap/medication-path-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
       "filename" : "OperationDefinition-Patient-everything.json",
       "resourceType" : "OperationDefinition",
       "id" : "Patient-everything",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/OperationDefinition/Patient-everything",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "operation",
       "type" : "true"
     },
@@ -248,7 +320,7 @@
       "resourceType" : "SearchParameter",
       "id" : "AllergyIntolerance-clinical-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/AllergyIntolerance-clinical-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -256,7 +328,7 @@
       "resourceType" : "SearchParameter",
       "id" : "AllergyIntolerance-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/AllergyIntolerance-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -264,7 +336,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Bundle-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Bundle-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -272,7 +344,63 @@
       "resourceType" : "SearchParameter",
       "id" : "Bundle-identifier",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Bundle-identifier",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-CarePlan-category.json",
+      "resourceType" : "SearchParameter",
+      "id" : "CarePlan-category",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-category",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-CarePlan-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "CarePlan-date",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-date",
+      "version" : "0.3.0",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-CarePlan-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "CarePlan-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-CarePlan-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "CarePlan-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-status",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-CareTeam-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "CareTeam-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CareTeam-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-CareTeam-role.json",
+      "resourceType" : "SearchParameter",
+      "id" : "CareTeam-role",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CareTeam-role",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-CareTeam-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "CareTeam-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CareTeam-status",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -280,7 +408,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Composition-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Composition-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -288,7 +416,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Composition-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Composition-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -296,7 +424,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Composition-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Composition-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -304,7 +432,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Composition-type",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Composition-type",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -312,7 +440,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Condition-abatement-date",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Condition-abatement-date",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -320,7 +448,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Condition-clinical-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Condition-clinical-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -328,7 +456,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Condition-code",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Condition-code",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -336,7 +464,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Condition-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Condition-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -344,7 +472,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Condition-onset-date",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Condition-onset-date",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -352,7 +480,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Condition-severity",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Condition-severity",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -360,15 +488,47 @@
       "resourceType" : "SearchParameter",
       "id" : "Condition-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Condition-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Coverage-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Coverage-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Coverage-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Device-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Device-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Device-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Device-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-status",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-Device-type.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Device-type",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-type",
+      "version" : "0.3.0",
+      "type" : "token"
     },
     {
       "filename" : "SearchParameter-DiagnosticReport-category.json",
       "resourceType" : "SearchParameter",
       "id" : "DiagnosticReport-category",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DiagnosticReport-category",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -376,7 +536,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DiagnosticReport-code",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DiagnosticReport-code",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -384,7 +544,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DiagnosticReport-date",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DiagnosticReport-date",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -392,7 +552,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DiagnosticReport-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DiagnosticReport-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -400,7 +560,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DiagnosticReport-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DiagnosticReport-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -408,7 +568,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DiagnosticReport-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DiagnosticReport-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -416,7 +576,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DocumentReference-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DocumentReference-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -424,7 +584,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DocumentReference-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DocumentReference-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -432,7 +592,7 @@
       "resourceType" : "SearchParameter",
       "id" : "DocumentReference-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/DocumentReference-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -440,7 +600,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Encounter-class",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Encounter-class",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -448,7 +608,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Encounter-date",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Encounter-date",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -456,7 +616,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Encounter-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Encounter-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -464,7 +624,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Encounter-identifier",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Encounter-identifier",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -472,7 +632,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Encounter-location",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Encounter-location",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -480,7 +640,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Encounter-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Encounter-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -488,15 +648,47 @@
       "resourceType" : "SearchParameter",
       "id" : "Encounter-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Encounter-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Goal-description.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Goal-description",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-description",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-Goal-lifecycle-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Goal-lifecycle-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-lifecycle-status",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-Goal-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Goal-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Goal-target-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Goal-target-date",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-target-date",
+      "version" : "0.3.0",
+      "type" : "date"
     },
     {
       "filename" : "SearchParameter-ImagingStudy-encounter.json",
       "resourceType" : "SearchParameter",
       "id" : "ImagingStudy-encounter",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-encounter",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -504,7 +696,7 @@
       "resourceType" : "SearchParameter",
       "id" : "ImagingStudy-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -512,7 +704,7 @@
       "resourceType" : "SearchParameter",
       "id" : "ImagingStudy-started",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-started",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -520,7 +712,7 @@
       "resourceType" : "SearchParameter",
       "id" : "ImagingStudy-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -528,15 +720,39 @@
       "resourceType" : "SearchParameter",
       "id" : "ImagingStudy-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Immunization-date.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Immunization-date",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Immunization-date",
+      "version" : "0.3.0",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-Immunization-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Immunization-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Immunization-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Immunization-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Immunization-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Immunization-status",
+      "version" : "0.3.0",
+      "type" : "token"
     },
     {
       "filename" : "SearchParameter-Location-address.json",
       "resourceType" : "SearchParameter",
       "id" : "Location-address",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Location-address",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "string"
     },
     {
@@ -544,7 +760,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Location-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Location-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -552,7 +768,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Location-name",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Location-name",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "string"
     },
     {
@@ -560,7 +776,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Media-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Media-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -568,7 +784,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Media-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Media-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -576,7 +792,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Media-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Media-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -584,7 +800,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Medication-code",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Medication-code",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -592,7 +808,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Medication-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Medication-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -600,7 +816,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationDispense-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationDispense-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -608,7 +824,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationDispense-medication",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationDispense-medication",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -616,7 +832,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationDispense-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationDispense-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -624,7 +840,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationDispense-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationDispense-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -632,7 +848,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationRequest-authoredon",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationRequest-authoredon",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -640,7 +856,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationRequest-encounter",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationRequest-encounter",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -648,7 +864,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationRequest-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationRequest-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -656,7 +872,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationRequest-intent",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationRequest-intent",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -664,7 +880,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationRequest-medication",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationRequest-medication",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -672,7 +888,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationRequest-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationRequest-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -680,7 +896,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationRequest-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationRequest-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -688,7 +904,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationStatement-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationStatement-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -696,7 +912,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationStatement-medication",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationStatement-medication",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -704,7 +920,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationStatement-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationStatement-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -712,7 +928,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MedicationStatement-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MedicationStatement-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -720,7 +936,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MessageHeader-author",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MessageHeader-author",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -728,7 +944,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MessageHeader-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MessageHeader-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -736,7 +952,7 @@
       "resourceType" : "SearchParameter",
       "id" : "MessageHeader-sender",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/MessageHeader-sender",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -744,7 +960,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Observation-category",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-category",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -752,7 +968,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Observation-clinical-code",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-clinical-code",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -760,7 +976,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Observation-date",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-date",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -768,15 +984,31 @@
       "resourceType" : "SearchParameter",
       "id" : "Observation-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-Observation-lastupdated.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Observation-lastupdated",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-lastupdated",
+      "version" : "0.3.0",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-Observation-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Observation-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
     },
     {
       "filename" : "SearchParameter-Observation-performer.json",
       "resourceType" : "SearchParameter",
       "id" : "Observation-performer",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-performer",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -784,7 +1016,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Observation-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -792,7 +1024,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Observation-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
@@ -800,7 +1032,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Organization-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Organization-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -808,7 +1040,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Organization-identifier",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Organization-identifier",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -816,7 +1048,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Organization-name",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Organization-name",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "string"
     },
     {
@@ -824,7 +1056,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Organization-type",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Organization-type",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -832,7 +1064,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Patient-birthdate",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Patient-birthdate",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -840,7 +1072,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Patient-gender",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Patient-gender",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -848,7 +1080,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Patient-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Patient-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -856,7 +1088,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Patient-identifier",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Patient-identifier",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -864,7 +1096,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Patient-name",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Patient-name",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "string"
     },
     {
@@ -872,7 +1104,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Practitioner-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Practitioner-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -880,7 +1112,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Practitioner-identifier",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Practitioner-identifier",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -888,7 +1120,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Practitioner-name",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Practitioner-name",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "string"
     },
     {
@@ -896,7 +1128,7 @@
       "resourceType" : "SearchParameter",
       "id" : "PractitionerRole-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/PractitionerRole-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -904,7 +1136,7 @@
       "resourceType" : "SearchParameter",
       "id" : "PractitionerRole-identifier",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/PractitionerRole-identifier",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -912,7 +1144,7 @@
       "resourceType" : "SearchParameter",
       "id" : "PractitionerRole-specialty",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/PractitionerRole-specialty",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -920,7 +1152,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Procedure-code",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Procedure-code",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -928,7 +1160,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Procedure-date",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Procedure-date",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "date"
     },
     {
@@ -936,7 +1168,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Procedure-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Procedure-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -944,7 +1176,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Procedure-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Procedure-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -952,15 +1184,143 @@
       "resourceType" : "SearchParameter",
       "id" : "Procedure-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Procedure-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-Provenance-id.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Provenance-id",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Provenance-id",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-Provenance-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "Provenance-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Provenance-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-QuestionnaireResponse-authored.json",
+      "resourceType" : "SearchParameter",
+      "id" : "QuestionnaireResponse-authored",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-authored",
+      "version" : "0.3.0",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-QuestionnaireResponse-id.json",
+      "resourceType" : "SearchParameter",
+      "id" : "QuestionnaireResponse-id",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-id",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-QuestionnaireResponse-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "QuestionnaireResponse-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-QuestionnaireResponse-questionnaire.json",
+      "resourceType" : "SearchParameter",
+      "id" : "QuestionnaireResponse-questionnaire",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-questionnaire",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-QuestionnaireResponse-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "QuestionnaireResponse-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-status",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-RelatedPerson-id.json",
+      "resourceType" : "SearchParameter",
+      "id" : "RelatedPerson-id",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-id",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-RelatedPerson-name.json",
+      "resourceType" : "SearchParameter",
+      "id" : "RelatedPerson-name",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-name",
+      "version" : "0.3.0",
+      "type" : "string"
+    },
+    {
+      "filename" : "SearchParameter-RelatedPerson-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "RelatedPerson-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-ServiceRequest-authored.json",
+      "resourceType" : "SearchParameter",
+      "id" : "ServiceRequest-authored",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-authored",
+      "version" : "0.3.0",
+      "type" : "date"
+    },
+    {
+      "filename" : "SearchParameter-ServiceRequest-category.json",
+      "resourceType" : "SearchParameter",
+      "id" : "ServiceRequest-category",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-category",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-ServiceRequest-code.json",
+      "resourceType" : "SearchParameter",
+      "id" : "ServiceRequest-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-code",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-ServiceRequest-id.json",
+      "resourceType" : "SearchParameter",
+      "id" : "ServiceRequest-id",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-id",
+      "version" : "0.3.0",
+      "type" : "token"
+    },
+    {
+      "filename" : "SearchParameter-ServiceRequest-patient.json",
+      "resourceType" : "SearchParameter",
+      "id" : "ServiceRequest-patient",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-patient",
+      "version" : "0.3.0",
+      "type" : "reference"
+    },
+    {
+      "filename" : "SearchParameter-ServiceRequest-status.json",
+      "resourceType" : "SearchParameter",
+      "id" : "ServiceRequest-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-status",
+      "version" : "0.3.0",
+      "type" : "token"
     },
     {
       "filename" : "SearchParameter-Specimen-id.json",
       "resourceType" : "SearchParameter",
       "id" : "Specimen-id",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Specimen-id",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -968,7 +1328,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Specimen-identifier",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Specimen-identifier",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -976,7 +1336,7 @@
       "resourceType" : "SearchParameter",
       "id" : "Specimen-status",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Specimen-status",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "token"
     },
     {
@@ -984,15 +1344,15 @@
       "resourceType" : "SearchParameter",
       "id" : "Specimen-subject",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Specimen-subject",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "type" : "reference"
     },
     {
-      "filename" : "StructureDefinition-Address-twcore.json",
+      "filename" : "StructureDefinition-Address-tw.json",
       "resourceType" : "StructureDefinition",
-      "id" : "Address-twcore",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Address-twcore",
-      "version" : "0.2.1",
+      "id" : "Address-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Address-tw",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Address",
       "derivation" : "constraint"
@@ -1002,7 +1362,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "AllergyIntolerance-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/AllergyIntolerance-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "AllergyIntolerance",
       "derivation" : "constraint"
@@ -1012,7 +1372,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Bundle-document-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Bundle",
       "derivation" : "constraint"
@@ -1022,7 +1382,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Bundle-message-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-message-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Bundle",
       "derivation" : "constraint"
@@ -1032,9 +1392,29 @@
       "resourceType" : "StructureDefinition",
       "id" : "Bundle-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Bundle",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-CarePlan-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "CarePlan-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/CarePlan-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "CarePlan",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-CareTeam-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "CareTeam-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/CareTeam-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "CareTeam",
       "derivation" : "constraint"
     },
     {
@@ -1042,7 +1422,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "CodeableConcept-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/CodeableConcept-tw",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "CodeableConcept",
       "derivation" : "constraint"
@@ -1052,7 +1432,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Coding-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Coding-tw",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Coding",
       "derivation" : "constraint"
@@ -1062,7 +1442,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Composition-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Composition-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Composition",
       "derivation" : "constraint"
@@ -1072,9 +1452,29 @@
       "resourceType" : "StructureDefinition",
       "id" : "Condition-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Condition-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Condition",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Coverage-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Coverage-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Coverage-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Coverage",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Device-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Device-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Device-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Device",
       "derivation" : "constraint"
     },
     {
@@ -1082,7 +1482,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "DiagnosticReport-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/DiagnosticReport-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "DiagnosticReport",
       "derivation" : "constraint"
@@ -1092,7 +1492,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "DocumentReference-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/DocumentReference-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "DocumentReference",
       "derivation" : "constraint"
@@ -1102,9 +1502,19 @@
       "resourceType" : "StructureDefinition",
       "id" : "Encounter-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Encounter-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Encounter",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Goal-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Goal-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Goal-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Goal",
       "derivation" : "constraint"
     },
     {
@@ -1112,9 +1522,19 @@
       "resourceType" : "StructureDefinition",
       "id" : "ImagingStudy-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/ImagingStudy-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "ImagingStudy",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Immunization-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Immunization-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Immunization-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Immunization",
       "derivation" : "constraint"
     },
     {
@@ -1122,7 +1542,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Location-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Location-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Location",
       "derivation" : "constraint"
@@ -1132,7 +1552,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Media-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Media-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Media",
       "derivation" : "constraint"
@@ -1142,7 +1562,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Medication-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Medication-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Medication",
       "derivation" : "constraint"
@@ -1152,7 +1572,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "MedicationDispense-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/MedicationDispense-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "MedicationDispense",
       "derivation" : "constraint"
@@ -1162,7 +1582,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "MedicationRequest-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/MedicationRequest-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "MedicationRequest",
       "derivation" : "constraint"
@@ -1172,7 +1592,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "MedicationStatement-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/MedicationStatement-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "MedicationStatement",
       "derivation" : "constraint"
@@ -1182,9 +1602,19 @@
       "resourceType" : "StructureDefinition",
       "id" : "MessageHeader-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/MessageHeader-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "MessageHeader",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-averageBloodPressure-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-averageBloodPressure-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-averageBloodPressure-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
       "derivation" : "constraint"
     },
     {
@@ -1192,7 +1622,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Observation-bloodPressure-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-bloodPressure-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Observation",
       "derivation" : "constraint"
@@ -1202,7 +1632,77 @@
       "resourceType" : "StructureDefinition",
       "id" : "Observation-bmi-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-bmi-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-body-height-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-body-height-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-body-height-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-body-temperature-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-body-temperature-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-body-temperature-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-body-weight-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-body-weight-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-body-weight-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-careExperiencePreference-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-careExperiencePreference-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-careExperiencePreference-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-clinical-result-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-clinical-result-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-clinical-result-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-head-circumference-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-head-circumference-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-head-circumference-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-heart-rate-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-heart-rate-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-heart-rate-twcore",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Observation",
       "derivation" : "constraint"
@@ -1212,7 +1712,137 @@
       "resourceType" : "StructureDefinition",
       "id" : "Observation-laboratoryResult-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-laboratoryResult-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-occupation-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-occupation-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-occupation-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-pediatric-bmi-age-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-pediatric-bmi-age-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pediatric-bmi-age-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-pediatric-head-circumference-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-pediatric-head-circumference-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pediatric-head-circumference-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-pediatric-weight-height-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-pediatric-weight-height-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pediatric-weight-height-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-pregnancy-intent-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-pregnancy-intent-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pregnancy-intent-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-pregnancy-status-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-pregnancy-status-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pregnancy-status-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-pulse-oximetry-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-pulse-oximetry-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pulse-oximetry-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-respiratory-rate-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-respiratory-rate-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-respiratory-rate-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-screening-assessment-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-screening-assessment-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-screening-assessment-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-sexual-orientation-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-sexual-orientation-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-sexual-orientation-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-simple-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-simple-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-smoking-status-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-smoking-status-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-smoking-status-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Observation",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Observation-treatment-intervention-preference-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Observation-treatment-intervention-preference-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-treatment-intervention-preference-twcore",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Observation",
       "derivation" : "constraint"
@@ -1222,7 +1852,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Observation-vitalSigns-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-vitalSigns-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Observation",
       "derivation" : "constraint"
@@ -1232,7 +1862,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Organization-co-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Organization-co-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Organization",
       "derivation" : "constraint"
@@ -1242,7 +1872,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Organization-govt-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Organization-govt-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Organization",
       "derivation" : "constraint"
@@ -1252,7 +1882,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Organization-hosp-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Organization-hosp-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Organization",
       "derivation" : "constraint"
@@ -1262,7 +1892,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Organization-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Organization-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Organization",
       "derivation" : "constraint"
@@ -1272,7 +1902,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Patient-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Patient-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Patient",
       "derivation" : "constraint"
@@ -1282,7 +1912,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Practitioner-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Practitioner-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Practitioner",
       "derivation" : "constraint"
@@ -1292,7 +1922,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "PractitionerRole-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/PractitionerRole-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "PractitionerRole",
       "derivation" : "constraint"
@@ -1302,9 +1932,49 @@
       "resourceType" : "StructureDefinition",
       "id" : "Procedure-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Procedure-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Procedure",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-Provenance-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "Provenance-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Provenance-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "Provenance",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-QuestionnaireResponse-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "QuestionnaireResponse-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/QuestionnaireResponse-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "QuestionnaireResponse",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-RelatedPerson-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "RelatedPerson-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/RelatedPerson-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "RelatedPerson",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-ServiceRequest-twcore.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "ServiceRequest-twcore",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/ServiceRequest-twcore",
+      "version" : "0.3.0",
+      "kind" : "resource",
+      "type" : "ServiceRequest",
       "derivation" : "constraint"
     },
     {
@@ -1312,7 +1982,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "Specimen-twcore",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Specimen-twcore",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "resource",
       "type" : "Specimen",
       "derivation" : "constraint"
@@ -1322,7 +1992,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWAllergyIntolerance",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWAllergyIntolerance",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWAllergyIntolerance",
       "derivation" : "specialization"
@@ -1332,7 +2002,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWBundle",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWBundle",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWBundle",
       "derivation" : "specialization"
@@ -1342,7 +2012,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWComposition",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWComposition",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWComposition",
       "derivation" : "specialization"
@@ -1352,7 +2022,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWCondition",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWCondition",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWCondition",
       "derivation" : "specialization"
@@ -1362,7 +2032,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWDiagnosticReport",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWDiagnosticReport",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWDiagnosticReport",
       "derivation" : "specialization"
@@ -1372,7 +2042,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWDocumentReference",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWDocumentReference",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWDocumentReference",
       "derivation" : "specialization"
@@ -1382,7 +2052,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWEncounter",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWEncounter",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWEncounter",
       "derivation" : "specialization"
@@ -1392,7 +2062,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWImagingStudy",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWImagingStudy",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWImagingStudy",
       "derivation" : "specialization"
@@ -1402,7 +2072,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWLocation",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWLocation",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWLocation",
       "derivation" : "specialization"
@@ -1412,7 +2082,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWMedia",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedia",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedia",
       "derivation" : "specialization"
@@ -1422,7 +2092,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWMedication",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedication",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedication",
       "derivation" : "specialization"
@@ -1432,7 +2102,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWMedicationDispense",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedicationDispense",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedicationDispense",
       "derivation" : "specialization"
@@ -1442,7 +2112,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWMedicationRequest",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedicationRequest",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedicationRequest",
       "derivation" : "specialization"
@@ -1452,7 +2122,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWMedicationStatement",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedicationStatement",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMedicationStatement",
       "derivation" : "specialization"
@@ -1462,7 +2132,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWMessageHeader",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMessageHeader",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWMessageHeader",
       "derivation" : "specialization"
@@ -1472,7 +2142,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWObservation",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWObservation",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWObservation",
       "derivation" : "specialization"
@@ -1482,7 +2152,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWOrganization",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWOrganization",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWOrganization",
       "derivation" : "specialization"
@@ -1492,7 +2162,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWPatient",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWPatient",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWPatient",
       "derivation" : "specialization"
@@ -1502,7 +2172,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWPractitioner",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWPractitioner",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWPractitioner",
       "derivation" : "specialization"
@@ -1512,7 +2182,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWPractitionerRole",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWPractitionerRole",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWPractitionerRole",
       "derivation" : "specialization"
@@ -1522,7 +2192,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWProcedure",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWProcedure",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWProcedure",
       "derivation" : "specialization"
@@ -1532,7 +2202,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "TWSpecimen",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWSpecimen",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "logical",
       "type" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/TWSpecimen",
       "derivation" : "specialization"
@@ -1542,7 +2212,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "identifier-suffix",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/identifier-suffix",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1552,7 +2222,17 @@
       "resourceType" : "StructureDefinition",
       "id" : "person-age",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/person-age",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
+      "kind" : "complex-type",
+      "type" : "Extension",
+      "derivation" : "constraint"
+    },
+    {
+      "filename" : "StructureDefinition-questionnaire-url.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "questionnaire-url",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/questionnaire-url",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1562,7 +2242,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-alley",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-alley",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1572,7 +2252,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-floor",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-floor",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1582,7 +2262,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-lane",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-lane",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1592,7 +2272,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-neighborhood",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-neighborhood",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1602,7 +2282,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-number",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-number",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1612,7 +2292,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-postal-code",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-postal-code",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1622,7 +2302,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-room",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-room",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1632,7 +2312,7 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-section",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-section",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
@@ -1642,10 +2322,17 @@
       "resourceType" : "StructureDefinition",
       "id" : "tw-village",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-village",
-      "version" : "0.2.1",
+      "version" : "0.3.0",
       "kind" : "complex-type",
       "type" : "Extension",
       "derivation" : "constraint"
+    },
+    {
+      "filename" : "ValueSet-category-code-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "category-code-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/category-code-tw",
+      "version" : "0.3.0"
     },
     {
       "filename" : "ValueSet-condition-code-sct-tw.json",
@@ -1655,32 +2342,11 @@
       "version" : "2022-07-31"
     },
     {
-      "filename" : "ValueSet-health-department-nhi-tw.json",
-      "resourceType" : "ValueSet",
-      "id" : "health-department-nhi-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/health-department-nhi-tw",
-      "version" : "2024-01-04"
-    },
-    {
-      "filename" : "ValueSet-health-department-sct-tw.json",
-      "resourceType" : "ValueSet",
-      "id" : "health-department-sct-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/health-department-sct-tw",
-      "version" : "0.2.1"
-    },
-    {
-      "filename" : "ValueSet-health-department-sta-tw.json",
-      "resourceType" : "ValueSet",
-      "id" : "health-department-sta-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/health-department-sta-tw",
-      "version" : "2024-01-04"
-    },
-    {
       "filename" : "ValueSet-health-professional-sct-tw.json",
       "resourceType" : "ValueSet",
       "id" : "health-professional-sct-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/health-professional-sct-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
       "filename" : "ValueSet-health-professional-tw.json",
@@ -1704,6 +2370,13 @@
       "version" : "2022-07-29"
     },
     {
+      "filename" : "ValueSet-icd-10-cm-2023-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "icd-10-cm-2023-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/icd-10-cm-2023-tw",
+      "version" : "2024-01-31"
+    },
+    {
       "filename" : "ValueSet-icd-10-pcs-2014-tw.json",
       "resourceType" : "ValueSet",
       "id" : "icd-10-pcs-2014-tw",
@@ -1718,6 +2391,13 @@
       "version" : "2022-07-29"
     },
     {
+      "filename" : "ValueSet-icd-10-pcs-2023-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "icd-10-pcs-2023-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/icd-10-pcs-2023-tw",
+      "version" : "2024-01-31"
+    },
+    {
       "filename" : "ValueSet-icd-9-cm-2001-tw.json",
       "resourceType" : "ValueSet",
       "id" : "icd-9-cm-2001-tw",
@@ -1729,7 +2409,14 @@
       "resourceType" : "ValueSet",
       "id" : "identifier-type-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/identifier-type-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-industry-dgbas-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "industry-dgbas-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/industry-dgbas-tw",
+      "version" : "2021-01-01"
     },
     {
       "filename" : "ValueSet-laboratory-category-tw.json",
@@ -1739,11 +2426,46 @@
       "version" : "2022-07-01"
     },
     {
+      "filename" : "ValueSet-loinc-doc-section-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "loinc-doc-section-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/loinc-doc-section-code",
+      "version" : "2.77"
+    },
+    {
+      "filename" : "ValueSet-loinc-document-classcodes.json",
+      "resourceType" : "ValueSet",
+      "id" : "loinc-document-classcodes",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/loinc-document-classcodes",
+      "version" : "2.77"
+    },
+    {
       "filename" : "ValueSet-loinc-observation-code.json",
       "resourceType" : "ValueSet",
       "id" : "loinc-observation-code",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/loinc-observation-code",
-      "version" : "2.73"
+      "version" : "2.77"
+    },
+    {
+      "filename" : "ValueSet-loinc-pregnancy-intent-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "loinc-pregnancy-intent-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/loinc-pregnancy-intent-code",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-loinc-survey-codes.json",
+      "resourceType" : "ValueSet",
+      "id" : "loinc-survey-codes",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/loinc-survey-codes",
+      "version" : "2.77"
+    },
+    {
+      "filename" : "ValueSet-loinc-type-doc-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "loinc-type-doc-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/loinc-type-doc-code",
+      "version" : "2.77"
     },
     {
       "filename" : "ValueSet-marital-status-tw.json",
@@ -1760,25 +2482,60 @@
       "version" : "2022-10-24"
     },
     {
+      "filename" : "ValueSet-medical-consultation-department-nhi-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "medical-consultation-department-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-consultation-department-nhi-tw",
+      "version" : "2024-05-27"
+    },
+    {
+      "filename" : "ValueSet-medical-consultation-department-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "medical-consultation-department-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-consultation-department-tw",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-medical-department-sct-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "medical-department-sct-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-department-sct-tw",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-medical-treatment-department-nhi-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "medical-treatment-department-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-treatment-department-nhi-tw",
+      "version" : "2024-05-27"
+    },
+    {
+      "filename" : "ValueSet-medical-treatment-department-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "medical-treatment-department-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-treatment-department-tw",
+      "version" : "0.3.0"
+    },
+    {
       "filename" : "ValueSet-medication-fda-tw.json",
       "resourceType" : "ValueSet",
       "id" : "medication-fda-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-fda-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
       "filename" : "ValueSet-medication-frequency-hl7-tw.json",
       "resourceType" : "ValueSet",
       "id" : "medication-frequency-hl7-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-frequency-hl7-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
-      "filename" : "ValueSet-medication-frequency-tw.json",
+      "filename" : "ValueSet-medication-frequency-nhi-tw.json",
       "resourceType" : "ValueSet",
-      "id" : "medication-frequency-tw",
-      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-frequency-tw",
-      "version" : "2022-01-28"
+      "id" : "medication-frequency-nhi-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-frequency-nhi-tw",
+      "version" : "2024-05-27"
     },
     {
       "filename" : "ValueSet-medication-nhi-tw.json",
@@ -1792,14 +2549,14 @@
       "resourceType" : "ValueSet",
       "id" : "medication-path-sct-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-path-sct-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     },
     {
       "filename" : "ValueSet-medication-path-tw.json",
       "resourceType" : "ValueSet",
       "id" : "medication-path-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-path-tw",
-      "version" : "2022-01-28"
+      "version" : "2024-06-04"
     },
     {
       "filename" : "ValueSet-medication-rxnorm-tw.json",
@@ -1809,11 +2566,53 @@
       "version" : "3.0.0"
     },
     {
+      "filename" : "ValueSet-narrative-status.json",
+      "resourceType" : "ValueSet",
+      "id" : "narrative-status",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/narrative-status",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-nhi-medication-ch-herb-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "nhi-medication-ch-herb-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/nhi-medication-ch-herb-tw",
+      "version" : "2024-05-31"
+    },
+    {
+      "filename" : "ValueSet-observation-clinical-result-category.json",
+      "resourceType" : "ValueSet",
+      "id" : "observation-clinical-result-category",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/observation-clinical-result-category",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-observation-screening-assessment-category.json",
+      "resourceType" : "ValueSet",
+      "id" : "observation-screening-assessment-category",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/observation-screening-assessment-category",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-occupation-lia-roc-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "occupation-lia-roc-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/occupation-lia-roc-tw",
+      "version" : "2023-06-01"
+    },
+    {
+      "filename" : "ValueSet-occupation-mol-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "occupation-mol-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/occupation-mol-tw",
+      "version" : "2010-05-01"
+    },
+    {
       "filename" : "ValueSet-organization-identifier-tw.json",
       "resourceType" : "ValueSet",
       "id" : "organization-identifier-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/organization-identifier-tw",
-      "version" : "2022-07-31"
+      "version" : "2024-04-10"
     },
     {
       "filename" : "ValueSet-postal-code3-tw.json",
@@ -1837,6 +2636,55 @@
       "version" : "2020-10-22"
     },
     {
+      "filename" : "ValueSet-procedure-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "procedure-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/procedure-tw",
+      "version" : "2024-05-27"
+    },
+    {
+      "filename" : "ValueSet-provenance-participant-type-hl7-tw.json",
+      "resourceType" : "ValueSet",
+      "id" : "provenance-participant-type-hl7-tw",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/provenance-participant-type-hl7-tw",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-serviceRequest-category.json",
+      "resourceType" : "ValueSet",
+      "id" : "serviceRequest-category",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/serviceRequest-category",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-smoking-status-comprehensive-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "smoking-status-comprehensive-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/smoking-status-comprehensive-code",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-smoking-status-type-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "smoking-status-type-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/smoking-status-type-code",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-snomed-pregnancy-status-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "snomed-pregnancy-status-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/snomed-pregnancy-status-code",
+      "version" : "0.3.0"
+    },
+    {
+      "filename" : "ValueSet-snomed-sexual-orientation-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "snomed-sexual-orientation-code",
+      "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/snomed-sexual-orientation-code",
+      "version" : "0.3.0"
+    },
+    {
       "filename" : "ValueSet-v3-orderableDrugForm.json",
       "resourceType" : "ValueSet",
       "id" : "v3-orderableDrugForm",
@@ -1848,7 +2696,7 @@
       "resourceType" : "ValueSet",
       "id" : "vital-signs-tw",
       "url" : "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/vital-signs-tw",
-      "version" : "0.2.1"
+      "version" : "0.3.0"
     }
   ]
 }
