@@ -25,7 +25,7 @@ module InfernoTemplate
     fhir_resource_validator do
       # igs 'identifier#version' # Use this method for published IGs/versions
       # igs 'igs/filename.tgz'   # Use this otherwise
-      # igs 'igs/package.tgz'
+      igs 'igs/package'
 
       exclude_message do |message|
         message.message.match?(/\A\S+: \S+: URL value '.*' does not resolve/)
